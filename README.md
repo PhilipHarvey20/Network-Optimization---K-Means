@@ -18,7 +18,7 @@ https://github.com/PhilipHarvey20/Network-Optimization---K-Means/blob/master/K-M
 ### *** STEP 1 - Import zip code data 
 
 
-First, we will want to import four csv files that contain all of the zip codes in AL, MS, GA, and SC. In addition we will need to import a lookup file to join the LAT/LON onto each of these zip codes (link below)
+First, we will want to import four csv files that contain all of the zip codes in AL, MS, GA, and SC. In addition we will need to import a lookup file to pull in the LAT/LON details for each of these zip codes (link below)
 
 ``` us_coordinate_lookup = pd.read_csv('https://raw.githubusercontent.com/PhilipHarvey20/Network-Optimization---K-Means/master/USZIPCodes202204.csv') ```
 
