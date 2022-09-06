@@ -54,7 +54,7 @@ We will also want to create a few "high-density" counties where more deer were h
 
 ### *** STEP 5 - K Means (Clustering Algorithm)
 
-Next, we will use ```Kmeans``` from the Scikit-learn library to identify the optimal locations for our 6 stores. We have already set the number (K) of centroids to 6 and will set the num of iterations to 1000. We will also want to use the ```harvest_count``` field as a weight to skew the centroids towards the zip codes with a greater count of harvested deer.
+Next, we will use ```Kmeans``` from the Scikit-learn library to identify the optimal locations for our 6 stores. We have already set the number of centroids (K) to 6 and will set the num of iterations to 1000. We will also want to use the ```harvest_count``` field as a weight to skew the centroids towards the zip codes with a greater count of harvested deer.
 
 ``` kmeans = KMeans(n_clusters=(no_of_clusters), random_state=0, max_iter=1000)```
 
